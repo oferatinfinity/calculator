@@ -38,7 +38,7 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult arg0) {
-		Reporter.log("Teststarted running:"  + .getMethod().getMethodName() + " at:" );
+		Reporter.log("Teststarted running:"  + arg0.getMethod().getMethodName() + " at:" );
 	}
 
 	@Override
