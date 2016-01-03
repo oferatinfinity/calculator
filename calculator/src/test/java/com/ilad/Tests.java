@@ -23,7 +23,7 @@ public class Tests {
 	public Object[][] createData1() {
 		return new Object[][] {
 		   { 5,8 },
-		   { 6,8 },
+		   { 6,7 },
 		 };
 		}
 	
