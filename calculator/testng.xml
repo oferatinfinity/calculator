@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suit">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+	<test name="Regression1" preserve-order="false">
+		<classes>
+
+			<class name="com.ilad.Tests">
+				<methods>
+					<include name="subst" />
+					<include name="ad" />
+					<include name="mul" />
+					<include name="div" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

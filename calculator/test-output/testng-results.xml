@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suit" duration-ms="24" started-at="2015-12-21T16:54:59Z" finished-at="2015-12-21T16:54:59Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="24" started-at="2015-12-21T16:54:59Z" finished-at="2015-12-21T16:54:59Z">
+      <class name="com.ilad.Tests">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.ilad.Tests@52e99642]" name="div" duration-ms="10" started-at="2015-12-21T16:54:59Z" finished-at="2015-12-21T16:54:59Z">
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.ilad.Tests@52e99642]" name="mul" duration-ms="0" started-at="2015-12-21T16:54:59Z" finished-at="2015-12-21T16:54:59Z">
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="subst()[pri:0, instance:com.ilad.Tests@52e99642]" name="subst" duration-ms="1" started-at="2015-12-21T16:54:59Z" finished-at="2015-12-21T16:54:59Z">
+        </test-method> <!-- subst -->
+      </class> <!-- com.ilad.Tests -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- suit -->
+</testng-results>
